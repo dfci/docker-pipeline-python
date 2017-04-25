@@ -1,5 +1,5 @@
 # Start from this base
-FROM python:2.7
+FROM python:2.7.12
 
 RUN pip install numpy==1.12.1
 RUN pip install scipy==0.19.0
